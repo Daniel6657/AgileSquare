@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#agileSquare {
+    position: absolute;
+    border: 2px solid rgb(143, 141, 141);
+    background-color: lightskyblue;
+    opacity: 0.8;
+    transition: 0.1s;
+    border-radius: 5%;
+    pointer-events: none;
+}
+
+#description {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 3vmin;
+    margin: 10px 50px;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
